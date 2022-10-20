@@ -1,0 +1,10 @@
+How to use this rozarpay----
+
+1. Pay.php initilize the payment button . Setup your amount here .
+2. Inside libraries folder -copy libraries/razorpay folder and paste it in CI project libraries folder.
+3. Get login user id using session.
+4. Create a payment_details table.
+5. Paste Razorpay.php file inside your CI controller.
+6. Create a new view file inside view and paste rezorpay.php file code and save it.
+7. After success this view file redirect to verify function on Razorpay.php file inside controller.
+8. After updating payment_details table empty the cart and redirect to dashboard
